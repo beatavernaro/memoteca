@@ -1,7 +1,7 @@
 # Memoteca
 
 Projeto criado com o curso Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD da Alura
-https://memotecaangular.netlify.app/memoteca/listarPensamento
+<a href="https://memotecaangular.netlify.app/" target="_blank">Acesse aqui a Memoteca</a>
 
 ## Para rodar
 
