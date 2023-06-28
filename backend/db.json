@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "autoria": "Nulla",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "mudei tudo",
+      "autoria": "Lorem",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Proin sed viverra tortor, vitae porta sem.",
+      "autoria": "Curabitur ",
+      "modelo": "modelo1"
+    }
+  ]
+}
