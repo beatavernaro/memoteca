@@ -7,16 +7,10 @@
       "modelo": "modelo1"
     },
     {
-      "id": 2,
-      "conteudo": "mudei tudo",
-      "autoria": "Lorem",
-      "modelo": "modelo2"
-    },
-    {
-      "id": 3,
-      "conteudo": "Proin sed viverra tortor, vitae porta sem.",
-      "autoria": "Curabitur ",
-      "modelo": "modelo1"
+      "conteudo": "Quando falamos de Angular, geralmente estamos falando do framework, mas nem sempre é assim. **Angular é um ecossistema completo, uma plataforma de desenvolvimento que inclui o framework e bibliotecas próprias, tendo em mente as necessidades comuns do desenvolvimento de interfaces e ferramentas para testar, atualizar e fazer o *build* do projeto**.  Como framework, Angular é baseado em componentes, que são trechos de código reutilizáveis escritos em HTML, TypeScript e CSS. Geralmente representam um elemento da interface. Podem ser testados, usando frameworks como Jest e Jasmine, sendo o último o padrão em projetos Angular gerados pela CLI.",
+      "autoria": "asd",
+      "modelo": "modelo2",
+      "id": 4
     }
   ]
 }

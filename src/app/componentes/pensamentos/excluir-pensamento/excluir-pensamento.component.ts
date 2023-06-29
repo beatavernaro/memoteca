@@ -30,7 +30,7 @@ export class ExcluirPensamentoComponent {
   }
 
   excluirPensamento() {
-    if (this.pensamento.id) {
+    if (this.pensamento.id!) {
       this.service.excluir(this.pensamento.id).subscribe(() => {
         this.router.navigate(['/listarPensamento'])
       })

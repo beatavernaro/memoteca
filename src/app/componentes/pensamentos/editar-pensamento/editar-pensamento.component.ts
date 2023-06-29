@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Pensamento } from '../pensamento';
 import { PensamentoService } from '../pensamento.service';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -10,8 +10,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class EditarPensamentoComponent {
 
-  pensamento: Pensamento = {
-    id: 0,
+   @Input() pensamentoTeste: Pensamento = {
+    id: 0, 
     conteudo: '',
     autoria: '',
     modelo: ''
@@ -22,15 +22,15 @@ export class EditarPensamentoComponent {
     private route: ActivatedRoute
   ) { }
 
-  ngOnInit(): void {
+ ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id')
     this.service.buscarPorId(parseInt(id!)).subscribe((pensamento) => {
-      this.pensamento = pensamento
+      this.pensamentoTeste = pensamento
     })
   }
 
   editarPensamento() {
-    this.service.editar(this.pensamento).subscribe(() => {
+    this.service.editar(this.pensamentoTeste).subscribe(() => {
       this.router.navigate(['/listarPensamento'])
     })
   }

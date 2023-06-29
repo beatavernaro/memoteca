@@ -7,11 +7,12 @@ import { Observable } from 'rxjs';
 })
 export class PensamentoService {
 
-  private readonly API = "http://localhost:3000/pensamentos";
+  private readonly API = "https://localhost:44352/pensamentos";
   constructor(private http: HttpClient) { }
 
   listar(): Observable<Pensamento[]> {
-    return this.http.get<Pensamento[]>(this.API)
+    const url = `${this.API}`
+    return this.http.get<Pensamento[]>(url)
   }
 
   criar(pensamento: Pensamento): Observable<Pensamento> {
